@@ -12,12 +12,26 @@ Para seu bom funcionamento utilizei o Insomnia, responsável por testar as reque
 
 ## Conceitos Aprendidos 🧠
 
-<bold> ･O que é o package.json? </bold>
+### ･ O que é o package.json?
 
 R.:
 O package. json é um arquivo de configuração utilizado para estipular 
 e configurar dependências do seu projeto (quais outros pacotes ele vai 
 precisar para ser executado) e scripts automatizados.
 
-･Importação do Express
+### ･ Importação do Express
 
+O Express. js é um Framework rápido e um dos mais utilizados em conjunto com o Node.js, 
+facilitando no desenvolvimento de aplicações back-end e até, 
+em conjunto com sistemas de templates, aplicações full-stack.
+
+Nesse projeto ele e seus módulos foram essenciais para o funcionamento da API.
+
+### ･ Módulos Express
+
+Em express temos os métodos get, post e put. Todos esses são responsáveis por criar url's
+porém cada um possui sua funcionalidade e objetivos específicos.
+
+- .get() --> Responsável  por listagem e busca
+- .post() --> Responsável pela criação de itens
+- .put() --> Responsável por atualizações
